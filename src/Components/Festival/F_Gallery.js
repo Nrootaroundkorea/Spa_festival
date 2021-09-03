@@ -66,15 +66,52 @@ function F_Gallery({ match }) {
             </div>
 
             <div className="gallery_main">
-                <div className="gallery_cotent"> 사진 </div>
-                <div className="gallery_cotent"> 사진 </div>
-                <div className="gallery_cotent"> 사진 </div>
-                <div className="gallery_cotent"> 사진 </div>
-                <div className="gallery_cotent"> 사진 </div>
-                <div className="gallery_cotent"> 사진 </div>
-                <div className="gallery_cotent"> 사진 </div>
-                <div className="gallery_cotent"> 사진 </div>
-                <div className="gallery_cotent"> 사진 </div>
+                <div className="gallery_cotent">
+                    <div style={{ float: "center", fontSize: "30px" }}>제 목</div>
+                    <div style={{ float: "right" }}>작성자</div>
+                    <div style={{ float: "center", marginTop: "30px", padding: "110px", border: "1px solid black" }}>내용</div>
+                </div>
+                <div className="gallery_cotent">
+                    <div style={{ float: "center", fontSize: "30px" }}>제 목</div>
+                    <div style={{ float: "right" }}>작성자</div>
+                    <div style={{ float: "center", marginTop: "30px", padding: "110px", border: "1px solid black" }}>내용</div>
+                </div>
+                <div className="gallery_cotent">
+                    <div style={{ float: "center", fontSize: "30px" }}>제 목</div>
+                    <div style={{ float: "right" }}>작성자</div>
+                    <div style={{ float: "center", marginTop: "30px", padding: "110px", border: "1px solid black" }}>내용</div>
+                </div>
+                <div className="gallery_cotent">
+                    <div style={{ float: "center", fontSize: "30px" }}>제 목</div>
+                    <div style={{ float: "right" }}>작성자</div>
+                    <div style={{ float: "center", marginTop: "30px", padding: "110px", border: "1px solid black" }}>내용</div>
+                </div>
+                <div className="gallery_cotent">
+                    <div style={{ float: "center", fontSize: "30px" }}>제 목</div>
+                    <div style={{ float: "right" }}>작성자</div>
+                    <div style={{ float: "center", marginTop: "30px", padding: "110px", border: "1px solid black" }}>내용</div>
+                </div>
+                <div className="gallery_cotent">
+                    <div style={{ float: "center", fontSize: "30px" }}>제 목</div>
+                    <div style={{ float: "right" }}>작성자</div>
+                    <div style={{ float: "center", marginTop: "30px", padding: "110px", border: "1px solid black" }}>내용</div>
+                </div>
+                <div className="gallery_cotent">
+                    <div style={{ float: "center", fontSize: "30px" }}>제 목</div>
+                    <div style={{ float: "right" }}>작성자</div>
+                    <div style={{ float: "center", marginTop: "30px", padding: "110px", border: "1px solid black" }}>내용</div>
+                </div>
+                <div className="gallery_cotent">
+                    <div style={{ float: "center", fontSize: "30px" }}>제 목</div>
+                    <div style={{ float: "right" }}>작성자</div>
+                    <div style={{ float: "center", marginTop: "30px", padding: "110px", border: "1px solid black" }}>내용</div>
+                </div>
+                <div className="gallery_cotent">
+                    <div style={{ float: "center", fontSize: "30px" }}>제 목</div>
+                    <div style={{ float: "right" }}>작성자</div>
+                    <div style={{ float: "center", marginTop: "30px", padding: "110px", border: "1px solid black" }}>내용</div>
+                </div>
+
             </div>
 
             <div className="gallery_nav">
@@ -84,8 +121,8 @@ function F_Gallery({ match }) {
                         {"<<"}
                     </Link>
                 </div>
-                <div style={{paddingTop:"10px"}}>
-                {pagenum}
+                <div style={{ paddingTop: "10px" }}>
+                    {pagenum}
                 </div>
                 <div className="button-2">
                     <div className="eff-2"></div>

@@ -82,11 +82,20 @@ function Home() {
                 </div>
             </div>
             <div className="agora_main">
-                <div className="agora_title"><Link to = '/A_main/1'>무엇이든 물어보살</Link></div>
+                <div className="agora_title"><Link to='/A_main/1'>무엇이든 물어보살</Link></div>
                 <div className="agora_content">
                     <div className="preview_agroa_main">
-                    <div className="board_content"> 글 </div>
-                    <div className="board_content"> 글 </div>
+                        <div className="board_content">
+                            <div style={{ float: "center", fontSize: "30px" }}>제 목</div>
+                            <div style={{ float: "right" }}>작성자</div>
+                            <div style={{ float: "center", marginTop: "30px", padding: "120px 50px", border: "1px solid black" }}>내용</div>
+                        </div>
+
+                        <div className="board_content">
+                            <div style={{ float: "center", fontSize: "30px" }}>제 목</div>
+                            <div style={{ float: "right" }}>작성자</div>
+                            <div style={{ float: "center", marginTop: "30px", padding: "120px 50px", border: "1px solid black" }}>내용</div>
+                        </div>
                     </div>
                 </div>
             </div>

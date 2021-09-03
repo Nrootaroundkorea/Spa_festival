@@ -27,7 +27,7 @@ function A_main({ match }) {
     const [input, setInput] = useState({
         catagory: '',
         keyword: '',
-        tag:'',
+        tag: '',
     })
 
     const onChange = e => {
@@ -79,14 +79,46 @@ function A_main({ match }) {
 
 
             <div className="board_main">
-                <div className="board_content"> 글 </div>
-                <div className="board_content"> 글 </div>
-                <div className="board_content"> 글 </div>
-                <div className="board_content"> 글 </div>
-                <div className="board_content"> 글 </div>
-                <div className="board_content"> 글 </div>
-                <div className="board_content"> 글 </div>
-                <div className="board_content"> 글 </div>
+                <div className="board_content">
+                    <div style={{ float: "center", fontSize: "30px" }}>제 목</div>
+                    <div style={{ float: "right" }}>작성자</div>
+                    <div style={{ float: "center", marginTop: "30px", padding: "60px 50px", border: "1px solid black" }}>내용</div>
+                </div>
+                <div className="board_content">
+                    <div style={{ float: "center", fontSize: "30px" }}>제 목</div>
+                    <div style={{ float: "right" }}>작성자</div>
+                    <div style={{ float: "center", marginTop: "30px", padding: "60px 50px", border: "1px solid black" }}>내용</div>
+                </div>
+                <div className="board_content">
+                    <div style={{ float: "center", fontSize: "30px" }}>제 목</div>
+                    <div style={{ float: "right" }}>작성자</div>
+                    <div style={{ float: "center", marginTop: "30px", padding: "60px 50px", border: "1px solid black" }}>내용</div>
+                </div>
+                <div className="board_content">
+                    <div style={{ float: "center", fontSize: "30px" }}>제 목</div>
+                    <div style={{ float: "right" }}>작성자</div>
+                    <div style={{ float: "center", marginTop: "30px", padding: "60px 50px", border: "1px solid black" }}>내용</div>
+                </div>
+                <div className="board_content">
+                    <div style={{ float: "center", fontSize: "30px" }}>제 목</div>
+                    <div style={{ float: "right" }}>작성자</div>
+                    <div style={{ float: "center", marginTop: "30px", padding: "60px 50px", border: "1px solid black" }}>내용</div>
+                </div>
+                <div className="board_content">
+                    <div style={{ float: "center", fontSize: "30px" }}>제 목</div>
+                    <div style={{ float: "right" }}>작성자</div>
+                    <div style={{ float: "center", marginTop: "30px", padding: "60px 50px", border: "1px solid black" }}>내용</div>
+                </div>
+                <div className="board_content">
+                    <div style={{ float: "center", fontSize: "30px" }}>제 목</div>
+                    <div style={{ float: "right" }}>작성자</div>
+                    <div style={{ float: "center", marginTop: "30px", padding: "60px 50px", border: "1px solid black" }}>내용</div>
+                </div>
+                <div className="board_content">
+                    <div style={{ float: "center", fontSize: "30px" }}>제 목</div>
+                    <div style={{ float: "right" }}>작성자</div>
+                    <div style={{ float: "center", marginTop: "30px", padding: "60px 50px", border: "1px solid black" }}>내용</div>
+                </div>
             </div>
 
 

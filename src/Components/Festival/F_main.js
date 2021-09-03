@@ -86,7 +86,11 @@ function F_main({ match }) {
                 <div className="festival_menu_S">
                     <label className="festival_menu_title">{`< 축제 갤러리 >`} </label>
                     <p style={{fontSize:"20px", textAlign:"right"}}><Link to={`/F_Gallery/1`}>+ 더보기</Link></p>
-                    <div className="festival_menu_content"></div>
+                    <div className="festival_menu_content">
+
+
+                        
+                    </div>
                 </div>
                 <div className="festival_menu_S">
                     <label className="festival_menu_title">{`< 축제 이야기 >`} </label>
