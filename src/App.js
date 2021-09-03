@@ -1,15 +1,21 @@
-import React, { Component} from 'react';
 import styled from 'styled-components';
-import Header from './Components/Header';
+import Header from './Layout/Header';
 import Router from './Routes/Router';
 import Footer from './Layout/Footer';
 
 function App() {
   return (
-    <div >
-
-    </div>
+        <Layout>
+          <Header/>
+            <Router />
+          <Footer/>
+        </Layout>
   );
 }
 
 export default App;
+
+const Layout = styled.div`
+  margin : 0 auto;
+  flex-flow: row wrap;
+`
