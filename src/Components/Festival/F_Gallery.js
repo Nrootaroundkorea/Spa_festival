@@ -49,7 +49,7 @@ function F_Gallery({ match }) {
 
                 <div className="Header_center"> 축제 갤러리</div>
 
-                <div className="Header_right">글쓰기</div>
+                <div className="Header_right"></div>
             </div>
 
             <div className="searchHeader">
@@ -112,6 +112,10 @@ function F_Gallery({ match }) {
                     <div style={{ float: "center", marginTop: "30px", padding: "110px", border: "1px solid black" }}>내용</div>
                 </div>
 
+            </div>
+
+            <div style={{textAlign:"right", marginTop:"10px"}}>
+            <button className="signin_button"><Link to = "/Write" className="link"> 글쓰기 </Link></button>
             </div>
 
             <div className="gallery_nav">

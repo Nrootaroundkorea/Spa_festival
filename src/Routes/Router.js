@@ -1,7 +1,7 @@
 import React from 'react';
 import { Component } from 'react';
 import { Switch, Route } from 'react-router-dom';
-import { Home,Login,Community,F_main,F_Gallery,F_Board,A_main} from './index';
+import { Home,Login,Community,F_main,F_Gallery,F_Board,A_main,Write} from './index';
 
 class Router extends Component {
     render() {
@@ -14,6 +14,7 @@ class Router extends Component {
                 <Route exact path="/F_Gallery/:num" component={F_Gallery} />
                 <Route exact path="/F_Board/:num" component={F_Board} />
                 <Route exact path="/A_main/:num" component={A_main} />
+                <Route exact path="/Write" component={Write} />
             </Switch>
         );
     }

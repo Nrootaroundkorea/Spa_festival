@@ -121,6 +121,9 @@ function A_main({ match }) {
                 </div>
             </div>
 
+            <div style={{textAlign:"right", marginTop:"10px"}}>
+            <button className="signin_button"><Link to = "/Write" className="link"> 글쓰기 </Link></button>
+            </div>
 
             <div className="gallery_nav">
                 <div className="button-1">

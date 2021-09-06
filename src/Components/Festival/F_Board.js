@@ -52,7 +52,7 @@ function F_Board({ match }) {
 
                 <div className="Header_center"> 축제 게시판</div>
 
-                <div className="Header_right">글쓰기</div>
+                <div className="Header_right"></div>
             </div>
 
             <div className="searchHeader">
@@ -220,6 +220,10 @@ function F_Board({ match }) {
                     <CommonTableColumn>{new Date().getHours()}:{new Date().getMinutes()}</CommonTableColumn>
                 </CommonTableRow>
             </CommonTable>
+
+            <div style={{textAlign:"right", marginTop:"10px"}}>
+            <button className="signin_button"><Link to = "/Write" className="link"> 글쓰기 </Link></button>
+            </div>
 
             <div className="gallery_nav">
                 <div className="button-1">
