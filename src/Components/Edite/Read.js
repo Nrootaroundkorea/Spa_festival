@@ -6,7 +6,7 @@ function Show({ history, match }) {
     const { id } = match.params;
 
     return (
-        <>
+        <Layout>
             <div className="post-view-wrapper">
                 {
                     data ? (
@@ -42,8 +42,16 @@ function Show({ history, match }) {
             <div style={{ textAlign: "right", marginTop: "10px" }}>
                 <button style={{ marginRight: "2em" }} className="signin_button" onClick={() => history.go(-1)}>뒤로가기</button> <button style={{ marginRight: "2em" }} className="signin_button" >수정하기</button> <button className="signin_button">삭제하기</button>
             </div>
-        </>
+        </Layout>
     );
 }
 
 export default Show;
+
+const Layout = styled.div`
+position: relative;
+width: 1130px;
+height: 1520px;
+padding: 20px 30px;
+margin: 0 auto;
+`

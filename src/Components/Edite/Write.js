@@ -6,10 +6,12 @@ import Editor from './Editor';
 function Write({ history }) {
     const [desc, setDesc] = useState('');
     const [hashtag, setHashtag] = useState([])
+    
     function onEditorChange(value) {
         setDesc(value)
-        console.log(desc)
     }
+
+    
     const [input, setInput] = useState(
         {
             title: '',
