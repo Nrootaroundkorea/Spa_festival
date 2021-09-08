@@ -45,11 +45,6 @@ function Login({ history }) {
 
             <div className="login_main">
 
-                <div className="checkgroup_box">
-                    <div style={{margin:"0 auto"}}><input type="checkbox" id="group" value={true} onChange={onChange}/>공동체</div>
-                    <div style={{margin:"0 auto"}}><input type="checkbox" id="group" value={false} onChange={onChange}/>개 인</div>
-                </div>
-
                 <input className="input_login" type="text" id="name" placeholder="이 름" onChange={onChange}></input> <br/> 
                 <input className="input_login" type="number" id="password" placeholder="전화번호" onChange={onChange}></input>  <br/> 
                 
